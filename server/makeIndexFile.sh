@@ -7,7 +7,7 @@ cat <<- _EOF_
 <head></head>
 <body>
 <h1>AWS Garden Cam</h1>
-<p>This timelapse is generated automatically in teh following way:
+<p>This timelapse is generated automatically in the following way:
 <ul><li>RPi collects photos and stores on S3
 <li>AWS lightsail instance generates timelapse from S3
 </ul>
@@ -19,6 +19,7 @@ cat <<- _EOF_
 Your browser does not support the video tag.
 </video>
 </div>
+<p>Code available on <a href="https://github.com/JohnCatn/aws-timelapse" target="_blank">GitHub</a>
 </body>
 </html>
 _EOF_
